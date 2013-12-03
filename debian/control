@@ -1,0 +1,31 @@
+Source: django-psycopg2-pool
+Maintainer: Ben Lee <ben86lee@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.3
+
+Package: python-django-psycopg2-pool
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: A db backend for Django using the gevent psycopg2-pool
+ # django-psycopg2-pool
+ --------------------
+ .
+ ## Features
+ -----------
+ .
+ * Basic postgres connection pool for Django using gevent
+ ** assumes you monkeypatch somewhere when using this backend
+ .
+ ## Installing the app
+ ----------------------
+     clone via git and python setup.py install
+ .
+ OR
+ .
+     easy_install django-psycopg2-pool
+ .
+ ## Setting up the app
+ ----------------------
+ .

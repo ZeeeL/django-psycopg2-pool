@@ -1,1 +1,8 @@
 *.pyc
+*.debhelper
+*.debhelper.log
+*.substvars
+debian/*/*
+debian/files
+build/
+django_psycopg2_pool.egg-info/
